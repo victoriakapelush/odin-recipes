@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(197, 197, 197);
+    margin: 0 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0 0;
+    border: 2px black solid;
+    border-width: 0 4px 8px 12px;
+    width: 60%;
+}
+
+li, h1 {
+    font-family: "Papyrus", "Courier New", monospace;
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: square;
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.main-image {
+    border: 2px black solid;
+    border-width: 0 4px 8px 12px;
+    margin-bottom: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: red;
+}
+
+li:hover {
+    color: red;
+}
