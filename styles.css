@@ -1,6 +1,8 @@
 body {
     background-color: rgb(197, 197, 197);
     margin: 0 0;
+    font-family: "Papyrus", "Courier New", monospace;
+    font-size: 20px;
 }
 
 .container {
@@ -15,17 +17,12 @@ body {
     width: 60%;
 }
 
-li, h1 {
-    font-family: "Papyrus", "Courier New", monospace;
-    font-size: 20px;
-}
-
-ul {
+.cake-names {
     list-style-type: square;
     margin: 20px;
 }
 
-a {
+.cake-names>li>a {
     text-decoration: none;
 }
 
@@ -34,7 +31,7 @@ h1 {
     margin-bottom: 10px;
 }
 
-.main-image {
+.main-image, .cake-image {
     border: 2px black solid;
     border-width: 0 4px 8px 12px;
     margin-bottom: 10px;
@@ -52,4 +49,30 @@ a:hover {
 
 li:hover {
     color: red;
+}
+
+.cake-image {
+    height: 25%;
+    width: 30%;
+}
+
+.cake-description {
+    margin: 20px 25px;
+    text-align: end;
+}
+
+h2, h3 {
+    margin: 15px;
+    text-align: center;
+}
+
+.cake-ingredients {
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0 0;
+}
+
+ol {
+    list-style-type: square;
 }
