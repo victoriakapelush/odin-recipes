@@ -1,8 +1,9 @@
 body {
     background-color: rgb(197, 197, 197);
-    margin: 0 0;
+    margin: 0;
     font-family: "Papyrus", "Courier New", monospace;
     font-size: 20px;
+    min-height: 100vh;
 }
 
 .container {
@@ -15,6 +16,7 @@ body {
     border: 2px black solid;
     border-width: 0 4px 8px 12px;
     width: 60%;
+    position: relative;
 }
 
 .cake-names {
@@ -29,6 +31,7 @@ body {
 h1 {
     font-size: 50px;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .main-image, .cake-image {
@@ -75,4 +78,22 @@ h2, h3 {
 
 ol {
     list-style-type: square;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    bottom: 0;
+    width: 100vw;
+    font-size: 14px;
+}
+
+footer>a{
+    text-decoration: none;
+    padding-top: 14px;
+}
+
+.main-footer {
+    position: absolute;
 }
